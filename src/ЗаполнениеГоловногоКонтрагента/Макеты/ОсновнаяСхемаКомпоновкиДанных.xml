@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГруппаДляХолдинга</dataPath>
+				<field>ГруппаДляХолдинга</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Контрагент</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидКонтрагента</dataPath>
+				<field>ВидКонтрагента</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид контрагента</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Код</dataPath>
+				<field>Код</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГоловнойКонтрагентКод</dataPath>
+				<field>ГоловнойКонтрагентКод</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГоловнойКонтрагент</dataPath>
+				<field>ГоловнойКонтрагент</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НовыйГоловнойКонтрагент</dataPath>
+				<field>НовыйГоловнойКонтрагент</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Новый головной контрагент</d5p1:content>
+					</d5p1:item>
+				</title>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НовыйГоловнойКонтрагентКод</dataPath>
+				<field>НовыйГоловнойКонтрагентКод</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Новый головной контрагент код</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьОборот</dataPath>
+				<field>СтоимостьОборот</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ХарактеристикаНоменклатуры</dataPath>
+				<field>ХарактеристикаНоменклатуры</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументПродажи</dataPath>
+				<field>ДокументПродажи</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗаказПокупателя</dataPath>
+				<field>ЗаказПокупателя</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДоговорКонтрагента</dataPath>
+				<field>ДоговорКонтрагента</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Проект</dataPath>
+				<field>Проект</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Грузополучатель</dataPath>
+				<field>Грузополучатель</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПодразделениеОрганизации</dataPath>
+				<field>ПодразделениеОрганизации</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Заказчик</dataPath>
+				<field>Заказчик</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтоимостьМаксимум</dataPath>
+				<field>СтоимостьМаксимум</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Стоимость максимум</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	Контрагенты.Код,
+	Контрагенты.Ссылка КАК Контрагент,
+	Контрагенты.ГруппаДляХолдинга,
+	Контрагенты.РольПлательщик,
+	Контрагенты.ЭтоГруппа,
+	Контрагенты.ГоловнойКонтрагент
+ПОМЕСТИТЬ вт_Контрагенты
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+ГДЕ
+	Контрагенты.РольПлательщик
+	И Контрагенты.ПометкаУдаления = ЛОЖЬ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ вт_Контрагенты.Контрагент) КАК КоличествоКонтрагентов,
+	вт_Контрагенты.ГруппаДляХолдинга
+ПОМЕСТИТЬ вт_КоличествоКонтрагентов
+ИЗ
+	вт_Контрагенты КАК вт_Контрагенты
+
+СГРУППИРОВАТЬ ПО
+	вт_Контрагенты.ГруппаДляХолдинга
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ГоловныеКонтрагентыПоОрганизациям.Контрагент КАК Контрагент,
+	ГоловныеКонтрагентыПоОрганизациям.ГоловнойКонтрагент КАК ГоловнойКонтрагент
+ПОМЕСТИТЬ вт_ГоловныеКонтрагентыПоОрганизациям
+ИЗ
+	вт_Контрагенты КАК вт_Контрагенты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ГоловныеКонтрагентыПоОрганизациям КАК ГоловныеКонтрагентыПоОрганизациям
+		ПО вт_Контрагенты.Контрагент = ГоловныеКонтрагентыПоОрганизациям.Контрагент
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_Контрагенты.Контрагент,
+	вт_Контрагенты.ГруппаДляХолдинга,
+	ГоловныеКонтрагентыПоОрганизациям.ГоловнойКонтрагент КАК ГоловнойКонтрагент,
+	ГоловныеКонтрагентыПоОрганизациям.ГоловнойКонтрагент КАК РС_ГоловнойКонтрагент
+ПОМЕСТИТЬ вт_КонтрагентыРегистр
+ИЗ
+	вт_КоличествоКонтрагентов КАК вт_КоличествоКонтрагентов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_Контрагенты КАК вт_Контрагенты
+			ЛЕВОЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыПоОрганизациям КАК ГоловныеКонтрагентыПоОрганизациям
+			ПО вт_Контрагенты.Контрагент = ГоловныеКонтрагентыПоОрганизациям.Контрагент
+		ПО вт_КоличествоКонтрагентов.ГруппаДляХолдинга = вт_Контрагенты.ГруппаДляХолдинга
+ГДЕ
+	вт_КоличествоКонтрагентов.КоличествоКонтрагентов &gt; 1
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	вт_КонтрагентыРегистр.ГруппаДляХолдинга,
+	вт_КонтрагентыРегистр.РС_ГоловнойКонтрагент
+ПОМЕСТИТЬ вт_ГруппаДляХолдингаРегистр
+ИЗ
+	вт_КонтрагентыРегистр КАК вт_КонтрагентыРегистр
+ГДЕ
+	НЕ вт_КонтрагентыРегистр.РС_ГоловнойКонтрагент ЕСТЬ NULL
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_КонтрагентыРегистр.ГруппаДляХолдинга,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ вт_КонтрагентыРегистр.РС_ГоловнойКонтрагент) КАК КоличествоГоловныхКонтрагентов
+ПОМЕСТИТЬ вт_КоличествоГоловныхКонтрагентовРС
+ИЗ
+	вт_ГруппаДляХолдингаРегистр КАК вт_КонтрагентыРегистр
+
+СГРУППИРОВАТЬ ПО
+	вт_КонтрагентыРегистр.ГруппаДляХолдинга
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_ГруппаДляХолдингаРегистр.ГруппаДляХолдинга,
+	вт_ГруппаДляХолдингаРегистр.РС_ГоловнойКонтрагент,
+	вт_КоличествоГоловныхКонтрагентовРС.КоличествоГоловныхКонтрагентов
+ПОМЕСТИТЬ вт_ГоловныеКонтрагентыДляРасчетаПродаж
+ИЗ
+	вт_КоличествоГоловныхКонтрагентовРС КАК вт_КоличествоГоловныхКонтрагентовРС
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_ГруппаДляХолдингаРегистр КАК вт_ГруппаДляХолдингаРегистр
+		ПО вт_КоличествоГоловныхКонтрагентовРС.ГруппаДляХолдинга = вт_ГруппаДляХолдингаРегистр.ГруппаДляХолдинга
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_КоличествоКонтрагентов.ГруппаДляХолдинга
+ПОМЕСТИТЬ вт_ГруппыДляХолдингаБезРС
+ИЗ
+	вт_КоличествоКонтрагентов КАК вт_КоличествоКонтрагентов
+		ЛЕВОЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыДляРасчетаПродаж
+		ПО вт_КоличествоКонтрагентов.ГруппаДляХолдинга = вт_ГоловныеКонтрагентыДляРасчетаПродаж.ГруппаДляХолдинга
+ГДЕ
+	вт_КоличествоКонтрагентов.КоличествоКонтрагентов &gt; 1
+	И вт_ГоловныеКонтрагентыДляРасчетаПродаж.РС_ГоловнойКонтрагент ЕСТЬ NULL
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_Контрагенты.Контрагент,
+	вт_Контрагенты.ГруппаДляХолдинга
+ПОМЕСТИТЬ вт_КонтрагентыБезРС
+ИЗ
+	вт_ГруппыДляХолдингаБезРС КАК вт_ГруппыДляХолдингаБезРС
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_Контрагенты КАК вт_Контрагенты
+		ПО вт_ГруппыДляХолдингаБезРС.ГруппаДляХолдинга = вт_Контрагенты.ГруппаДляХолдинга
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_ГоловныеКонтрагентыДляРасчетаПродаж.ГруппаДляХолдинга,
+	ПродажиОбороты.Контрагент КАК РС_ГоловнойКонтрагент,
+	СУММА(ПродажиОбороты.СтоимостьОборот) КАК СтоимостьОборот
+ПОМЕСТИТЬ вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж
+ИЗ
+	РегистрНакопления.Продажи.Обороты(
+			,
+			,
+			,
+			Контрагент В
+				(ВЫБРАТЬ
+					вт_ГоловныеКонтрагентыДляРасчетаПродаж.РС_ГоловнойКонтрагент
+				ИЗ
+					вт_ГоловныеКонтрагентыДляРасчетаПродаж
+				ГДЕ
+					вт_ГоловныеКонтрагентыДляРасчетаПродаж.КоличествоГоловныхКонтрагентов &gt; 1)) КАК ПродажиОбороты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыДляРасчетаПродаж
+		ПО ПродажиОбороты.Контрагент = вт_ГоловныеКонтрагентыДляРасчетаПродаж.РС_ГоловнойКонтрагент
+
+СГРУППИРОВАТЬ ПО
+	ПродажиОбороты.Контрагент,
+	вт_ГоловныеКонтрагентыДляРасчетаПродаж.ГруппаДляХолдинга
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	вт_КонтрагентыБезРС.ГруппаДляХолдинга,
+	ПродажиОбороты.Контрагент,
+	СУММА(ПродажиОбороты.СтоимостьОборот)
+ИЗ
+	РегистрНакопления.Продажи.Обороты(
+			,
+			,
+			,
+			Контрагент В
+				(ВЫБРАТЬ
+					вт_КонтрагентыБезРС.Контрагент
+				ИЗ
+					вт_КонтрагентыБезРС)) КАК ПродажиОбороты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_КонтрагентыБезРС КАК вт_КонтрагентыБезРС
+		ПО ПродажиОбороты.Контрагент = вт_КонтрагентыБезРС.Контрагент
+
+СГРУППИРОВАТЬ ПО
+	ПродажиОбороты.Контрагент,
+	вт_КонтрагентыБезРС.ГруппаДляХолдинга
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.ГруппаДляХолдинга,
+	МАКСИМУМ(вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.СтоимостьОборот) КАК СтоимостьОборот
+ПОМЕСТИТЬ вт_ГоловныеКонтрагентыМаксимумДляРасчетаПродаж
+ИЗ
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж
+
+СГРУППИРОВАТЬ ПО
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.ГруппаДляХолдинга
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.РС_ГоловнойКонтрагент,
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.СтоимостьОборот,
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.ГруппаДляХолдинга
+ПОМЕСТИТЬ вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж
+ИЗ
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыМаксимумДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыМаксимумДляРасчетаПродаж
+		ПО вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.ГруппаДляХолдинга = вт_ГоловныеКонтрагентыМаксимумДляРасчетаПродаж.ГруппаДляХолдинга
+			И вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.СтоимостьОборот = вт_ГоловныеКонтрагентыМаксимумДляРасчетаПродаж.СтоимостьОборот
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	"ЕдинственныеКонтрагенты" КАК ВидКонтрагента,
+	вт_Контрагенты.Контрагент,
+	вт_Контрагенты.Код,
+	вт_Контрагенты.ГруппаДляХолдинга,
+	НЕОПРЕДЕЛЕНО КАК ГоловнойКонтрагент,
+	НЕОПРЕДЕЛЕНО КАК ГоловнойКонтрагентКод,
+	вт_Контрагенты.Контрагент КАК НовыйГоловнойКонтрагент,
+	вт_Контрагенты.Контрагент.Код КАК НовыйГоловнойКонтрагентКод,
+	0 КАК СтоимостьОборот,
+	0 КАК СтоимостьМаксимум
+ИЗ
+	вт_КоличествоКонтрагентов КАК вт_КоличествоКонтрагентов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_Контрагенты КАК вт_Контрагенты
+		ПО вт_КоличествоКонтрагентов.ГруппаДляХолдинга = вт_Контрагенты.ГруппаДляХолдинга
+ГДЕ
+	вт_КоличествоКонтрагентов.КоличествоКонтрагентов = 1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"ЕдинственныйГоловнойКонтрагентИзРС",
+	вт_КонтрагентыРегистр.Контрагент,
+	вт_КонтрагентыРегистр.Контрагент.Код,
+	вт_КонтрагентыРегистр.ГруппаДляХолдинга,
+	вт_КонтрагентыРегистр.ГоловнойКонтрагент,
+	вт_КонтрагентыРегистр.ГоловнойКонтрагент.Код,
+	вт_ГруппаДляХолдингаРегистр.РС_ГоловнойКонтрагент,
+	вт_ГруппаДляХолдингаРегистр.РС_ГоловнойКонтрагент.Код,
+	0,
+	0
+ИЗ
+	вт_КоличествоГоловныхКонтрагентовРС КАК вт_КоличествоГоловныхКонтрагентовРС
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_КонтрагентыРегистр КАК вт_КонтрагентыРегистр
+		ПО вт_КоличествоГоловныхКонтрагентовРС.ГруппаДляХолдинга = вт_КонтрагентыРегистр.ГруппаДляХолдинга
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_ГруппаДляХолдингаРегистр КАК вт_ГруппаДляХолдингаРегистр
+		ПО вт_КоличествоГоловныхКонтрагентовРС.ГруппаДляХолдинга = вт_ГруппаДляХолдингаРегистр.ГруппаДляХолдинга
+ГДЕ
+	вт_КоличествоГоловныхКонтрагентовРС.КоличествоГоловныхКонтрагентов = 1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"МножественныйГоловнойКонтрагентИзРС",
+	вт_КонтрагентыРегистр.Контрагент,
+	вт_КонтрагентыРегистр.Контрагент.Код,
+	вт_КонтрагентыРегистр.ГруппаДляХолдинга,
+	вт_КонтрагентыРегистр.ГоловнойКонтрагент,
+	вт_КонтрагентыРегистр.ГоловнойКонтрагент.Код,
+	вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.РС_ГоловнойКонтрагент,
+	вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.РС_ГоловнойКонтрагент.Код,
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.СтоимостьОборот,
+	вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.СтоимостьОборот
+ИЗ
+	вт_КоличествоГоловныхКонтрагентовРС КАК вт_КоличествоГоловныхКонтрагентовРС
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_КонтрагентыРегистр КАК вт_КонтрагентыРегистр
+		ПО вт_КоличествоГоловныхКонтрагентовРС.ГруппаДляХолдинга = вт_КонтрагентыРегистр.ГруппаДляХолдинга
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_ГруппаДляХолдингаРегистр КАК вт_ГруппаДляХолдингаРегистр
+		ПО вт_КоличествоГоловныхКонтрагентовРС.ГруппаДляХолдинга = вт_ГруппаДляХолдингаРегистр.ГруппаДляХолдинга
+		ЛЕВОЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж
+		ПО (вт_КонтрагентыРегистр.ГруппаДляХолдинга = вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.ГруппаДляХолдинга)
+			И (вт_КонтрагентыРегистр.ГоловнойКонтрагент = вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.РС_ГоловнойКонтрагент)
+		ЛЕВОЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж
+		ПО вт_КоличествоГоловныхКонтрагентовРС.ГруппаДляХолдинга = вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.ГруппаДляХолдинга
+ГДЕ
+	вт_КоличествоГоловныхКонтрагентовРС.КоличествоГоловныхКонтрагентов &gt; 1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"МножественныйГоловнойКонтрагентБезРС",
+	вт_КонтрагентыБезРС.Контрагент,
+	вт_КонтрагентыБезРС.Контрагент.Код,
+	вт_КонтрагентыРегистр.ГруппаДляХолдинга,
+	вт_КонтрагентыРегистр.ГоловнойКонтрагент,
+	вт_КонтрагентыРегистр.ГоловнойКонтрагент.Код,
+	вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.РС_ГоловнойКонтрагент,
+	вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.РС_ГоловнойКонтрагент.Код,
+	вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.СтоимостьОборот,
+	вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.СтоимостьОборот
+ИЗ
+	вт_КонтрагентыБезРС КАК вт_КонтрагентыБезРС
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ вт_КонтрагентыРегистр КАК вт_КонтрагентыРегистр
+		ПО вт_КонтрагентыБезРС.ГруппаДляХолдинга = вт_КонтрагентыРегистр.ГруппаДляХолдинга
+			И вт_КонтрагентыБезРС.Контрагент = вт_КонтрагентыРегистр.Контрагент
+		ЛЕВОЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж
+		ПО (вт_КонтрагентыРегистр.ГруппаДляХолдинга = вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.ГруппаДляХолдинга)
+			И (вт_КонтрагентыРегистр.Контрагент = вт_ГоловныеКонтрагентыСуммаДляРасчетаПродаж.РС_ГоловнойКонтрагент)
+		ЛЕВОЕ СОЕДИНЕНИЕ вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж КАК вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж
+		ПО (вт_КонтрагентыРегистр.ГруппаДляХолдинга = вт_ГоловныеКонтрагентыИТОГДляРасчетаПродаж.ГруппаДляХолдинга)</query>
+		</dataSet>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных2</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Контрагент</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОрганизацияКонтрагента</dataPath>
+				<field>ОрганизацияКонтрагента</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Организация контрагента</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	КонтрагентыОрганизации.Ссылка КАК Контрагент,
+	КонтрагентыОрганизации.Организация КАК ОрганизацияКонтрагента
+ИЗ
+	Справочник.Контрагенты.Организации КАК КонтрагентыОрганизации
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Контрагенты КАК Контрагенты
+		ПО КонтрагентыОрганизации.Ссылка = Контрагенты.Ссылка
+ГДЕ
+	Контрагенты.РольПлательщик
+	И Контрагенты.ПометкаУдаления = ЛОЖЬ</query>
+		</dataSet>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных3</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОрганизацияРС</dataPath>
+				<field>ОрганизацияРС</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Организация РС</d5p1:content>
+					</d5p1:item>
+				</title>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГоловнойКонтрагент</dataPath>
+				<field>ГоловнойКонтрагент</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Контрагент</dataPath>
+				<field>Контрагент</field>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ГоловныеКонтрагентыПоОрганизациям.Организация КАК ОрганизацияРС,
+	ГоловныеКонтрагентыПоОрганизациям.Контрагент,
+	ГоловныеКонтрагентыПоОрганизациям.ГоловнойКонтрагент
+ИЗ
+	РегистрСведений.ГоловныеКонтрагентыПоОрганизациям КАК ГоловныеКонтрагентыПоОрганизациям
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Контрагенты КАК Контрагенты
+		ПО ГоловныеКонтрагентыПоОрганизациям.Контрагент = Контрагенты.Ссылка
+ГДЕ
+	Контрагенты.РольПлательщик
+	И Контрагенты.ПометкаУдаления = ЛОЖЬ</query>
+		</dataSet>
+		<dataSetLink>
+			<sourceDataSet>НаборДанных1</sourceDataSet>
+			<destinationDataSet>НаборДанных2</destinationDataSet>
+			<sourceExpression>Контрагент</sourceExpression>
+			<destinationExpression>Контрагент</destinationExpression>
+		</dataSetLink>
+		<dataSetLink>
+			<sourceDataSet>НаборДанных1</sourceDataSet>
+			<destinationDataSet>НаборДанных3</destinationDataSet>
+			<sourceExpression>Контрагент</sourceExpression>
+			<destinationExpression>Контрагент</destinationExpression>
+		</dataSetLink>
+		<dataSetLink>
+			<sourceDataSet>НаборДанных1</sourceDataSet>
+			<destinationDataSet>НаборДанных3</destinationDataSet>
+			<sourceExpression>ГоловнойКонтрагент</sourceExpression>
+			<destinationExpression>ГоловнойКонтрагент</destinationExpression>
+		</dataSetLink>
+		<totalField>
+			<dataPath>ОрганизацияРС</dataPath>
+			<expression>Массив(ОрганизацияРС)</expression>
+			<group>Контрагент</group>
+		</totalField>
+		<totalField>
+			<dataPath>ОрганизацияКонтрагента</dataPath>
+			<expression>Массив(ОрганизацияКонтрагента)</expression>
+			<group>Контрагент</group>
+		</totalField>
+		<parameter>
+			<name>НачалоПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начало периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+			<inputParameters/>
+		</parameter>
+		<parameter>
+			<name>КонецПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+			<inputParameters/>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>ОрганизацияКонтрагента</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ОрганизацияРС</field>
+		</item>
+	</selection>
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">Контрагент</left>
+			<comparisonType>InHierarchy</comparisonType>
+		</item>
+	</filter>
+	<dataParameters/>
+	<outputParameters/>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>ВидКонтрагента</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+		<item xsi:type="StructureItemGroup">
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>ГруппаДляХолдинга</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+			<item xsi:type="StructureItemGroup">
+				<groupItems>
+					<item xsi:type="GroupItemField">
+						<field>Контрагент</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>ГоловнойКонтрагент</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>НовыйГоловнойКонтрагент</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>СтоимостьОборот</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>СтоимостьМаксимум</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+				</groupItems>
+				<order>
+					<item xsi:type="OrderItemAuto"/>
+				</order>
+				<selection>
+					<item xsi:type="SelectedItemAuto"/>
+				</selection>
+				<outputParameters/>
+			</item>
+		</item>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>
